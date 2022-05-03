@@ -1,0 +1,355 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--CSS-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css">
+    <!--font-awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    
+    
+    <title>Edumodo</title>
+</head>
+
+<body>
+    <!--Navbar-->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="assets\Logo.png" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Study</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Admission</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pages</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <button class="btn-applyNow">
+                            <a href="#" class="btn-applyNow-a nav-item nav-link ">
+                                Apply Now
+                            </a>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--Banner section-->
+    <div class="row">
+        <div class="col">
+            <section>
+                <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col-4">
+                                    <img src="assets\banner-img1.png" alt="banner-img1" class="img-fluid" width="100%"
+                                        height="auto" style="padding-top: 100px;">
+                                </div>
+                                <div class="col-5 my-auto">
+                                    <h2>Innovation for education <br> and Society</h2>
+                                    <h6 id="banner-text">Our interdisciplinary majors and minors mean you can chart your own course
+                                        for academic success</h4>
+                                        <button type="button" class="btn btn-lg" id="banner-btn">Visit our
+                                            campus</button>
+                                </div>
+                                <div class="col-3">
+                                    <img src="assets\banner-img2.png" alt="banner-img2" class="img-fluid" width="100%"
+                                        height="auto" style="padding-top: 130px;">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-3">
+                                    <img src="assets\banner-img2.png" alt="banner-img2" class="img-fluid" width="100%"
+                                        height="auto" style="padding-top: 130px;">
+                                </div>
+                                <div class="col-5 my-auto">
+                                    <h2>Innovation for education <br> and Society</h2>
+                                    <h6 id="banner-text">Our interdisciplinary majors and minors mean you can chart your own course
+                                        for
+                                        academic success</h4>
+                                        <button type="button" class="btn btn-lg" id="banner-btn">Visit our
+                                            campus</button>
+                                </div>
+                                <div class="col-4">
+                                    <img src="assets\banner-img1.png" alt="banner-img1" class="img-fluid" width="100%"
+                                        height="auto" style="padding-top: 100px;">
+                                </div>
+                            </div>
+                        </div>
+
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <!--form-->
+    <div class="apply-div">
+        <div class="row">
+            <div class="col-md-2 col-12 applyDiv-pic">
+                <img class="img-fluid" src="assets\vector smart object1.png" alt="">
+            </div>
+            <div class="col-md-4 col-12 applyDiv-text">
+                <p>Start Your Courses Free! <span>TRY NOW FOR FREE</span></p>
+                <h3><b>Are you ready to work faster?</b></h3>
+            </div>
+            <div class="col-md-4 col-12 form-div">
+                <p class="text-center apply-now">
+                    Apply Now
+                </p>
+                <form>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="First Name" id="firstname"
+                            aria-label="firstname">
+                    </div>
+                    <div class="row form-group">
+                        <label for="date" class="col-sm-2 col-form-label">Date</label>
+                        <div class="col-sm-6">
+                            <div class="input-group date" id="datepicker">
+                                <input type="text" class="form-control">
+                                <span class="input-group-append">
+                                    <span class="input-group-text bg-dark d-block">
+                                        <i class="fa fa-calendar"></i>
+                                    </span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Select Country</option>
+                            <option value="Afghanistan">Afghanistan</option>
+                            <option value="Albania">Albania</option>
+                            <option value="Algeria">Algeria</option>
+                            <option value="American Samoa">American Samoa</option>
+                            <option value="Andorra">Andorra</option>
+                            <option value="Angola">Angola</option>
+                            <option value="Anguilla">Anguilla</option>
+                            <option value="Antartica">Antarctica</option>
+                            <option value="Antigua and Barbuda">Antigua and Barbuda</option>
+                            <option value="Argentina">Argentina</option>
+                            <option value="Armenia">Armenia</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Select Branch</option>
+                            <option value="1">Engineering</option>
+                            <option value="2">Accounting</option>
+                            <option value="3">Creative</option>
+                            <option value="4">Design</option>
+                            <option value="5">Physics</option>
+                            <option value="6">Chemistry</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Select skill</option>
+                            <option value="1">Java</option>
+                            <option value="2">JavaScript</option>
+                            <option value="3">Photoshop</option>
+                            <option value="4">Adobe illustrator</option>
+                            <option value="5">Bootstrap</option>
+                        </select>
+                    </div>
+                    <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">
+                            <small class="text-muted">
+                                I agree with the terms and conditions
+                            </small>
+                        </label>
+                    </div>
+                    <button class="btnApply mb-3">
+                        Apply Now
+                    </button>
+                    <div class="float-end">
+                        <span>or call us</span>
+                        <br />
+                        <b>+49 157 788 456</b>
+                    </div>
+                    <p><a href="#" class="account-underline">I already have an account</a></p>
+                </form>
+            </div>
+            <div class="col-md-2 col-12 applyDiv-pic">
+                <img class="img-fluid" src="assets\vector-smart-object.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer>
+        <div class="footer-div">
+            <div class="container">
+                <div class="row py-5" id="footer-row">
+                    <div class="col-md-3">
+                        <img src="assets\learned-logo.png" alt="logo">
+                        <p>Edumodo focuses on creating magnificent education websites with ease. Take the lead in the race
+                            with Learned.</p>
+                        <br />
+                        <ul class="social-icons">
+                            <li>
+                                <a href="#"><i class="fa fa-twitter"> </i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-facebook-square"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-skype"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-pinterest-square"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-apple"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <h5>FEATURED PROGRAMS</h5>
+                        <ul class="footer-featured">
+                            <li>
+                                <a href="#">Fixed responsive issue - Just Now</a>
+                            </li>
+                            <li>
+                                <a href="#">New portfolio grid layout - Today</a>
+                            </li>
+                            <li>
+                                <a href="#">Tested & approved WP 3.6 - 5 Hours Ago</a>
+                            </li>
+                            <li>
+                                <a href="#">Fixed google map issue - yesterday</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2">
+                        <h5>LEARNING</h5>
+                        <ul class="footer-featured">
+                            <li><a href="#"> Our Plans</a></li>
+                            <li><a href="#">Free Trial</a></li>
+                            <li><a href="#">Academic Solutions</a></li>
+                            <li><a href="#">Business Solutions</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <h5>SUPPORT FORUM</h5>
+                        <h6>Write your email into below field and join our quick support forum.</h6>
+                        <div class="input-group mb-6">
+                            <input type="text" class="form-control-sm get-help" placeholder="Email Address" aria-label="email-address" aria-details="basic-addon2">
+                            <div class="input-group-append">
+                                <span class="input-group-text" id="basic-addon2">
+                                    GET HELP
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copy-right">
+            <div class="container">
+                <div class="row">
+                    <span> Copyright &copy
+                        <script>
+                            document.write(new Date().getFullYear())
+                        </script>
+                        learned
+                    </span>
+                    <ul class="copyright-list ml-auto">
+                        <li>
+                            <a href="#" class="copyright-a">Site Map</a>
+                        </li>
+                        <li>
+                            <a href="#" class="copyright-a"> Privacy Policy</a>
+                        </li>
+                        <li>
+                            <a href="#" class="copyright-a"> Website Use Policy</a>
+                        </li>
+                        <li>
+                            <a href="#" class="copyright-a">Cookie Policy</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
+
+
+    <script type="text/javascript">
+        $(function() {
+            $('#datepicker').datepicker();
+        });
+    </script>
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
